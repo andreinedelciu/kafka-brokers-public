@@ -1,0 +1,1252 @@
+[2021-04-28 12:11:56,161] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = false
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9094
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs-1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-28 12:11:56,248] INFO starting (kafka.server.KafkaServer)
+[2021-04-28 12:11:56,252] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-28 12:11:56,588] INFO Cluster ID = OI5TX0LoSKWbFw7uSD6clA (kafka.server.KafkaServer)
+[2021-04-28 12:11:56,594] WARN No meta.properties file under dir C:\tmp\kafka-logs-1\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-04-28 12:11:56,626] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 12:11:56,631] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 12:11:56,763] INFO Log directory 'C:\tmp\kafka-logs-1' not found, creating it. (kafka.log.LogManager)
+[2021-04-28 12:11:56,774] INFO Loading logs. (kafka.log.LogManager)
+[2021-04-28 12:11:56,785] INFO Logs loading complete in 10 ms. (kafka.log.LogManager)
+[2021-04-28 12:11:56,913] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-04-28 12:11:56,916] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-04-28 12:11:56,973] INFO Awaiting socket connections on 0.0.0.0:9094. (kafka.network.Acceptor)
+[2021-04-28 12:11:56,976] INFO [Socket Server on Broker 1], Started 1 acceptor threads (kafka.network.SocketServer)
+[2021-04-28 12:11:57,001] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:11:57,003] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:11:57,055] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:11:57,060] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:11:57,062] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:11:57,124] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 12:11:57,126] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 12:11:57,129] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:11:57,158] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2021-04-28 12:11:57,263] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 12:11:57,291] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 12:11:57,292] INFO Registered broker 1 at path /brokers/ids/1 with addresses: EndPoint(DESKTOP-V6KRCRU.mshome.net,9094,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2021-04-28 12:11:57,294] WARN No meta.properties file under dir C:\tmp\kafka-logs-1\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-04-28 12:11:57,332] INFO [Kafka Server 1], started (kafka.server.KafkaServer)
+[2021-04-28 12:12:30,448] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 2
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = false
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9095
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs-2
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-28 12:12:30,494] INFO starting (kafka.server.KafkaServer)
+[2021-04-28 12:12:30,496] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-28 12:12:30,809] INFO Cluster ID = OI5TX0LoSKWbFw7uSD6clA (kafka.server.KafkaServer)
+[2021-04-28 12:12:30,816] WARN No meta.properties file under dir C:\tmp\kafka-logs-2\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-04-28 12:12:30,846] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 12:12:30,851] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 12:12:30,995] INFO Log directory 'C:\tmp\kafka-logs-2' not found, creating it. (kafka.log.LogManager)
+[2021-04-28 12:12:31,006] INFO Loading logs. (kafka.log.LogManager)
+[2021-04-28 12:12:31,015] INFO Logs loading complete in 9 ms. (kafka.log.LogManager)
+[2021-04-28 12:12:31,242] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-04-28 12:12:31,248] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-04-28 12:12:31,355] INFO Awaiting socket connections on 0.0.0.0:9095. (kafka.network.Acceptor)
+[2021-04-28 12:12:31,362] INFO [Socket Server on Broker 2], Started 1 acceptor threads (kafka.network.SocketServer)
+[2021-04-28 12:12:31,405] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:12:31,408] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:12:31,498] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:12:31,503] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:12:31,505] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 12:12:31,566] INFO [GroupCoordinator 2]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 12:12:31,567] INFO [GroupCoordinator 2]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 12:12:31,569] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 2 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:12:31,591] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2021-04-28 12:12:31,694] INFO Creating /brokers/ids/2 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 12:12:31,727] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 12:12:31,730] INFO Registered broker 2 at path /brokers/ids/2 with addresses: EndPoint(DESKTOP-V6KRCRU.mshome.net,9095,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2021-04-28 12:12:31,731] WARN No meta.properties file under dir C:\tmp\kafka-logs-2\meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2021-04-28 12:12:31,763] INFO [Kafka Server 2], started (kafka.server.KafkaServer)
+[2021-04-28 12:21:57,139] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:22:31,577] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:31:57,126] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:32:31,581] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:41:57,133] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:42:31,576] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:51:57,135] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 12:52:31,579] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:01:57,136] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:02:31,569] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:11:57,140] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:12:31,570] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:21:57,133] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:22:31,571] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:31:57,137] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:32:31,570] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:41:57,130] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:42:31,577] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:51:57,134] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 13:52:31,574] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:01:57,130] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:02:31,581] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:11:57,140] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:12:31,580] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:21:57,130] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:22:31,576] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:31:57,136] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:32:31,570] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:41:57,135] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:42:31,577] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:51:57,131] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 14:52:31,579] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:01:57,136] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:02:31,576] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:11:57,135] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:12:31,570] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:21:57,130] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:22:31,577] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:31:57,131] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:32:31,582] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:41:57,137] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:42:31,571] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:51:57,129] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 15:52:31,570] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:01:57,128] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:02:31,569] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:11:57,125] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:12:31,571] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:21:57,134] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:22:31,577] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:31:57,135] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:32:31,568] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:32:53,665] INFO [Kafka Server 2], shutting down (kafka.server.KafkaServer)
+[2021-04-28 16:32:53,668] INFO [Kafka Server 2], Starting controlled shutdown (kafka.server.KafkaServer)
+[2021-04-28 16:32:53,721] WARN End point with security protocol ListenerName(PLAINTEXT) not found for broker 1010 (kafka.utils.CoreUtils$)
+kafka.common.BrokerEndPointNotAvailableException: End point with security protocol ListenerName(PLAINTEXT) not found for broker 1010
+	at kafka.cluster.Broker$$anonfun$8.apply(Broker.scala:178)
+	at kafka.cluster.Broker$$anonfun$8.apply(Broker.scala:178)
+	at scala.collection.MapLike$class.getOrElse(MapLike.scala:128)
+	at scala.collection.AbstractMap.getOrElse(Map.scala:59)
+	at kafka.cluster.Broker.getBrokerEndPoint(Broker.scala:177)
+	at kafka.server.KafkaServer.node$1(KafkaServer.scala:353)
+	at kafka.server.KafkaServer.networkClientControlledShutdown$1(KafkaServer.scala:421)
+	at kafka.server.KafkaServer.kafka$server$KafkaServer$$controlledShutdown(KafkaServer.scala:557)
+	at kafka.server.KafkaServer$$anonfun$shutdown$1.apply$mcV$sp(KafkaServer.scala:579)
+	at kafka.utils.CoreUtils$.swallow(CoreUtils.scala:78)
+	at kafka.utils.Logging$class.swallowWarn(Logging.scala:94)
+	at kafka.utils.CoreUtils$.swallowWarn(CoreUtils.scala:48)
+	at kafka.utils.Logging$class.swallow(Logging.scala:96)
+	at kafka.utils.CoreUtils$.swallow(CoreUtils.scala:48)
+	at kafka.server.KafkaServer.shutdown(KafkaServer.scala:579)
+	at kafka.server.KafkaServerStartable.shutdown(KafkaServerStartable.scala:51)
+	at kafka.Kafka$$anon$1.run(Kafka.scala:63)
+[2021-04-28 16:32:53,746] INFO [Socket Server on Broker 2], Shutting down (kafka.network.SocketServer)
+[2021-04-28 16:32:53,759] INFO [Socket Server on Broker 2], Shutdown completed (kafka.network.SocketServer)
+[2021-04-28 16:32:53,760] INFO [Kafka Request Handler on Broker 2], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2021-04-28 16:32:53,799] INFO [Kafka Request Handler on Broker 2], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2021-04-28 16:32:53,804] INFO [ThrottledRequestReaper-Fetch], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:54,008] INFO [ThrottledRequestReaper-Fetch], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:54,008] INFO [ThrottledRequestReaper-Fetch], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:54,008] INFO [ThrottledRequestReaper-Produce], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:54,646] INFO [ThrottledRequestReaper-Produce], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:54,646] INFO [ThrottledRequestReaper-Produce], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:54,650] INFO [KafkaApi-2] Shutdown complete. (kafka.server.KafkaApis)
+[2021-04-28 16:32:54,652] INFO [Replica Manager on Broker 2]: Shutting down (kafka.server.ReplicaManager)
+[2021-04-28 16:32:54,653] INFO [ReplicaFetcherManager on broker 2] shutting down (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:32:54,656] INFO [ReplicaFetcherManager on broker 2] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:32:54,657] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:54,709] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:54,709] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:54,712] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:54,912] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:54,912] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:54,917] INFO [Replica Manager on Broker 2]: Shut down completely (kafka.server.ReplicaManager)
+[2021-04-28 16:32:54,918] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,036] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,036] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,042] INFO [GroupCoordinator 2]: Shutting down. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:32:55,043] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,115] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,115] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,116] INFO [ExpirationReaper-2], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,318] INFO [ExpirationReaper-2], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,318] INFO [ExpirationReaper-2], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:55,320] INFO [GroupCoordinator 2]: Shutdown complete. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:32:55,321] INFO Shutting down. (kafka.log.LogManager)
+[2021-04-28 16:32:55,337] INFO Shutdown complete. (kafka.log.LogManager)
+[2021-04-28 16:32:55,355] INFO [Kafka Server 2], shut down completed (kafka.server.KafkaServer)
+[2021-04-28 16:32:58,865] INFO [Kafka Server 1], shutting down (kafka.server.KafkaServer)
+[2021-04-28 16:32:58,869] INFO [Kafka Server 1], Starting controlled shutdown (kafka.server.KafkaServer)
+[2021-04-28 16:32:58,937] WARN End point with security protocol ListenerName(PLAINTEXT) not found for broker 1010 (kafka.utils.CoreUtils$)
+kafka.common.BrokerEndPointNotAvailableException: End point with security protocol ListenerName(PLAINTEXT) not found for broker 1010
+	at kafka.cluster.Broker$$anonfun$8.apply(Broker.scala:178)
+	at kafka.cluster.Broker$$anonfun$8.apply(Broker.scala:178)
+	at scala.collection.MapLike$class.getOrElse(MapLike.scala:128)
+	at scala.collection.AbstractMap.getOrElse(Map.scala:59)
+	at kafka.cluster.Broker.getBrokerEndPoint(Broker.scala:177)
+	at kafka.server.KafkaServer.node$1(KafkaServer.scala:353)
+	at kafka.server.KafkaServer.networkClientControlledShutdown$1(KafkaServer.scala:421)
+	at kafka.server.KafkaServer.kafka$server$KafkaServer$$controlledShutdown(KafkaServer.scala:557)
+	at kafka.server.KafkaServer$$anonfun$shutdown$1.apply$mcV$sp(KafkaServer.scala:579)
+	at kafka.utils.CoreUtils$.swallow(CoreUtils.scala:78)
+	at kafka.utils.Logging$class.swallowWarn(Logging.scala:94)
+	at kafka.utils.CoreUtils$.swallowWarn(CoreUtils.scala:48)
+	at kafka.utils.Logging$class.swallow(Logging.scala:96)
+	at kafka.utils.CoreUtils$.swallow(CoreUtils.scala:48)
+	at kafka.server.KafkaServer.shutdown(KafkaServer.scala:579)
+	at kafka.server.KafkaServerStartable.shutdown(KafkaServerStartable.scala:51)
+	at kafka.Kafka$$anon$1.run(Kafka.scala:63)
+[2021-04-28 16:32:58,956] INFO [Socket Server on Broker 1], Shutting down (kafka.network.SocketServer)
+[2021-04-28 16:32:58,970] INFO [Socket Server on Broker 1], Shutdown completed (kafka.network.SocketServer)
+[2021-04-28 16:32:58,970] INFO [Kafka Request Handler on Broker 1], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2021-04-28 16:32:58,999] INFO [Kafka Request Handler on Broker 1], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2021-04-28 16:32:59,005] INFO [ThrottledRequestReaper-Fetch], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:59,696] INFO [ThrottledRequestReaper-Fetch], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:59,697] INFO [ThrottledRequestReaper-Produce], Shutting down (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:59,699] INFO [ThrottledRequestReaper-Fetch], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:59,710] INFO [ThrottledRequestReaper-Produce], Stopped  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:59,710] INFO [ThrottledRequestReaper-Produce], Shutdown completed (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:32:59,712] INFO [KafkaApi-1] Shutdown complete. (kafka.server.KafkaApis)
+[2021-04-28 16:32:59,713] INFO [Replica Manager on Broker 1]: Shutting down (kafka.server.ReplicaManager)
+[2021-04-28 16:32:59,713] INFO [ReplicaFetcherManager on broker 1] shutting down (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:32:59,715] INFO [ReplicaFetcherManager on broker 1] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:32:59,715] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:59,787] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:59,787] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:59,788] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:59,991] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:59,991] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:32:59,998] INFO [Replica Manager on Broker 1]: Shut down completely (kafka.server.ReplicaManager)
+[2021-04-28 16:32:59,999] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,101] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,101] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,111] INFO [GroupCoordinator 1]: Shutting down. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:33:00,113] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,196] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,196] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,198] INFO [ExpirationReaper-1], Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,400] INFO [ExpirationReaper-1], Stopped  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,400] INFO [ExpirationReaper-1], Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:33:00,401] INFO [GroupCoordinator 1]: Shutdown complete. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:33:00,402] INFO Shutting down. (kafka.log.LogManager)
+[2021-04-28 16:33:00,410] INFO Shutdown complete. (kafka.log.LogManager)
+[2021-04-28 16:33:00,425] INFO [Kafka Server 1], shut down completed (kafka.server.KafkaServer)
+[2021-04-28 16:41:32,899] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = false
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9094
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs-1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-28 16:41:32,927] INFO starting (kafka.server.KafkaServer)
+[2021-04-28 16:41:32,929] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-28 16:41:33,053] INFO Cluster ID = OI5TX0LoSKWbFw7uSD6clA (kafka.server.KafkaServer)
+[2021-04-28 16:41:33,073] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:41:33,075] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:41:33,136] INFO Loading logs. (kafka.log.LogManager)
+[2021-04-28 16:41:33,139] INFO Logs loading complete in 3 ms. (kafka.log.LogManager)
+[2021-04-28 16:41:33,186] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-04-28 16:41:33,187] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-04-28 16:41:33,212] INFO Awaiting socket connections on 0.0.0.0:9094. (kafka.network.Acceptor)
+[2021-04-28 16:41:33,215] INFO [Socket Server on Broker 1], Started 1 acceptor threads (kafka.network.SocketServer)
+[2021-04-28 16:41:33,225] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:33,226] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:33,251] INFO Creating /controller (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 16:41:33,260] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 16:41:33,260] INFO 1 successfully elected as leader (kafka.server.ZookeeperLeaderElector)
+[2021-04-28 16:41:34,052] INFO New leader is 1 (kafka.server.ZookeeperLeaderElector$LeaderChangeListener)
+[2021-04-28 16:41:34,052] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:34,055] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:34,057] INFO [ExpirationReaper-1], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:34,084] INFO [GroupCoordinator 1]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:41:34,085] INFO [GroupCoordinator 1]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:41:34,086] INFO [Group Metadata Manager on Broker 1]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:41:34,101] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2021-04-28 16:41:34,164] INFO Creating /brokers/ids/1 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 16:41:34,170] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 16:41:34,172] INFO Registered broker 1 at path /brokers/ids/1 with addresses: EndPoint(DESKTOP-V6KRCRU.mshome.net,9094,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2021-04-28 16:41:34,185] INFO [Kafka Server 1], started (kafka.server.KafkaServer)
+[2021-04-28 16:41:34,312] INFO Completed load of log dns_kafka_topic-2 with 1 log segments and log end offset 0 in 19 ms (kafka.log.Log)
+[2021-04-28 16:41:34,314] INFO Created log for partition [dns_kafka_topic,2] in C:\tmp\kafka-logs-1 with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, preallocate -> false, segment.jitter.ms -> 0, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> true, delete.retention.ms -> 86400000, retention.bytes -> -1, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-04-28 16:41:34,315] INFO Partition [dns_kafka_topic,2] on broker 1: No checkpointed highwatermark is found for partition dns_kafka_topic-2 (kafka.cluster.Partition)
+[2021-04-28 16:41:34,324] INFO Completed load of log dns_kafka_topic-0 with 1 log segments and log end offset 0 in 4 ms (kafka.log.Log)
+[2021-04-28 16:41:34,325] INFO Created log for partition [dns_kafka_topic,0] in C:\tmp\kafka-logs-1 with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, preallocate -> false, segment.jitter.ms -> 0, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> true, delete.retention.ms -> 86400000, retention.bytes -> -1, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-04-28 16:41:34,326] INFO Partition [dns_kafka_topic,0] on broker 1: No checkpointed highwatermark is found for partition dns_kafka_topic-0 (kafka.cluster.Partition)
+[2021-04-28 16:41:34,331] INFO Completed load of log dns_kafka_topic-1 with 1 log segments and log end offset 0 in 1 ms (kafka.log.Log)
+[2021-04-28 16:41:34,332] INFO Created log for partition [dns_kafka_topic,1] in C:\tmp\kafka-logs-1 with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, preallocate -> false, segment.jitter.ms -> 0, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> true, delete.retention.ms -> 86400000, retention.bytes -> -1, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-04-28 16:41:34,335] INFO Partition [dns_kafka_topic,1] on broker 1: No checkpointed highwatermark is found for partition dns_kafka_topic-1 (kafka.cluster.Partition)
+[2021-04-28 16:41:34,336] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions  (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:41:34,348] INFO [ReplicaFetcherManager on broker 1] Added fetcher for partitions List() (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:41:34,618] INFO [ReplicaFetcherManager on broker 1] Removed fetcher for partitions dns_kafka_topic-2,dns_kafka_topic-0,dns_kafka_topic-1 (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:41:50,247] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 2
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = false
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9095
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs-2
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-28 16:41:50,274] INFO starting (kafka.server.KafkaServer)
+[2021-04-28 16:41:50,275] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-28 16:41:50,419] INFO Cluster ID = OI5TX0LoSKWbFw7uSD6clA (kafka.server.KafkaServer)
+[2021-04-28 16:41:50,438] INFO [ThrottledRequestReaper-Fetch], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:41:50,440] INFO [ThrottledRequestReaper-Produce], Starting  (kafka.server.ClientQuotaManager$ThrottledRequestReaper)
+[2021-04-28 16:41:50,501] INFO Loading logs. (kafka.log.LogManager)
+[2021-04-28 16:41:50,505] INFO Logs loading complete in 4 ms. (kafka.log.LogManager)
+[2021-04-28 16:41:50,551] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2021-04-28 16:41:50,552] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2021-04-28 16:41:50,595] INFO Awaiting socket connections on 0.0.0.0:9095. (kafka.network.Acceptor)
+[2021-04-28 16:41:50,597] INFO [Socket Server on Broker 2], Started 1 acceptor threads (kafka.network.SocketServer)
+[2021-04-28 16:41:50,607] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:50,608] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:50,631] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:50,635] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:50,636] INFO [ExpirationReaper-2], Starting  (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2021-04-28 16:41:50,666] INFO [GroupCoordinator 2]: Starting up. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:41:50,666] INFO [GroupCoordinator 2]: Startup complete. (kafka.coordinator.GroupCoordinator)
+[2021-04-28 16:41:50,668] INFO [Group Metadata Manager on Broker 2]: Removed 0 expired offsets in 1 milliseconds. (kafka.coordinator.GroupMetadataManager)
+[2021-04-28 16:41:50,682] INFO Will not load MX4J, mx4j-tools.jar is not in the classpath (kafka.utils.Mx4jLoader$)
+[2021-04-28 16:41:50,757] INFO Creating /brokers/ids/2 (is it secure? false) (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 16:41:50,816] INFO Result of znode creation is: OK (kafka.utils.ZKCheckedEphemeral)
+[2021-04-28 16:41:50,818] INFO Registered broker 2 at path /brokers/ids/2 with addresses: EndPoint(DESKTOP-V6KRCRU.mshome.net,9095,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.utils.ZkUtils)
+[2021-04-28 16:41:50,832] INFO [Kafka Server 2], started (kafka.server.KafkaServer)
+[2021-04-28 16:41:50,984] INFO Completed load of log dns_kafka_topic-2 with 1 log segments and log end offset 0 in 14 ms (kafka.log.Log)
+[2021-04-28 16:41:50,987] INFO Created log for partition [dns_kafka_topic,2] in C:\tmp\kafka-logs-2 with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, preallocate -> false, segment.jitter.ms -> 0, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> true, delete.retention.ms -> 86400000, retention.bytes -> -1, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-04-28 16:41:50,989] INFO Partition [dns_kafka_topic,2] on broker 2: No checkpointed highwatermark is found for partition dns_kafka_topic-2 (kafka.cluster.Partition)
+[2021-04-28 16:41:50,997] INFO Completed load of log dns_kafka_topic-0 with 1 log segments and log end offset 0 in 2 ms (kafka.log.Log)
+[2021-04-28 16:41:50,998] INFO Created log for partition [dns_kafka_topic,0] in C:\tmp\kafka-logs-2 with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, preallocate -> false, segment.jitter.ms -> 0, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> true, delete.retention.ms -> 86400000, retention.bytes -> -1, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-04-28 16:41:50,999] INFO Partition [dns_kafka_topic,0] on broker 2: No checkpointed highwatermark is found for partition dns_kafka_topic-0 (kafka.cluster.Partition)
+[2021-04-28 16:41:51,008] INFO Completed load of log dns_kafka_topic-1 with 1 log segments and log end offset 0 in 3 ms (kafka.log.Log)
+[2021-04-28 16:41:51,010] INFO Created log for partition [dns_kafka_topic,1] in C:\tmp\kafka-logs-2 with properties {compression.type -> producer, message.format.version -> 0.10.2-IV0, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, min.insync.replicas -> 1, preallocate -> false, segment.jitter.ms -> 0, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> true, delete.retention.ms -> 86400000, retention.bytes -> -1, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.bytes -> 1073741824, retention.ms -> 604800000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2021-04-28 16:41:51,011] INFO Partition [dns_kafka_topic,1] on broker 2: No checkpointed highwatermark is found for partition dns_kafka_topic-1 (kafka.cluster.Partition)
+[2021-04-28 16:41:51,012] INFO [ReplicaFetcherManager on broker 2] Removed fetcher for partitions dns_kafka_topic-0,dns_kafka_topic-2,dns_kafka_topic-1 (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:41:51,017] INFO Truncating log dns_kafka_topic-0 to offset 0. (kafka.log.Log)
+[2021-04-28 16:41:51,019] INFO Truncating log dns_kafka_topic-2 to offset 0. (kafka.log.Log)
+[2021-04-28 16:41:51,019] INFO Truncating log dns_kafka_topic-1 to offset 0. (kafka.log.Log)
+[2021-04-28 16:41:51,045] INFO [ReplicaFetcherThread-0-1], Starting  (kafka.server.ReplicaFetcherThread)
+[2021-04-28 16:41:51,048] INFO [ReplicaFetcherManager on broker 2] Added fetcher for partitions List([dns_kafka_topic-2, initOffset 0 to broker BrokerEndPoint(1,DESKTOP-V6KRCRU.mshome.net,9094)] , [dns_kafka_topic-0, initOffset 0 to broker BrokerEndPoint(1,DESKTOP-V6KRCRU.mshome.net,9094)] , [dns_kafka_topic-1, initOffset 0 to broker BrokerEndPoint(1,DESKTOP-V6KRCRU.mshome.net,9094)] ) (kafka.server.ReplicaFetcherManager)
+[2021-04-28 16:41:51,067] INFO Partition [dns_kafka_topic,2] on broker 1: Expanding ISR for partition dns_kafka_topic-2 from 1 to 1,2 (kafka.cluster.Partition)
+[2021-04-28 16:41:51,072] INFO Partition [dns_kafka_topic,0] on broker 1: Expanding ISR for partition dns_kafka_topic-0 from 1 to 1,2 (kafka.cluster.Partition)
+[2021-04-28 16:41:51,075] INFO Partition [dns_kafka_topic,1] on broker 1: Expanding ISR for partition dns_kafka_topic-1 from 1 to 1,2 (kafka.cluster.Partition)
+[2021-04-28 16:43:56,375] WARN [ReplicaFetcherThread-0-1], Error in fetch kafka.server.ReplicaFetcherThread$FetchRequest@61ba2b6e (kafka.server.ReplicaFetcherThread)
+java.io.IOException: Connection to 1 was disconnected before the response was read
+	at kafka.utils.NetworkClientBlockingOps$$anonfun$blockingSendAndReceive$extension$1$$anonfun$apply$1.apply(NetworkClientBlockingOps.scala:114)
+	at kafka.utils.NetworkClientBlockingOps$$anonfun$blockingSendAndReceive$extension$1$$anonfun$apply$1.apply(NetworkClientBlockingOps.scala:112)
+	at scala.Option.foreach(Option.scala:257)
+	at kafka.utils.NetworkClientBlockingOps$$anonfun$blockingSendAndReceive$extension$1.apply(NetworkClientBlockingOps.scala:112)
+	at kafka.utils.NetworkClientBlockingOps$$anonfun$blockingSendAndReceive$extension$1.apply(NetworkClientBlockingOps.scala:108)
+	at kafka.utils.NetworkClientBlockingOps$.recursivePoll$1(NetworkClientBlockingOps.scala:136)
+	at kafka.utils.NetworkClientBlockingOps$.kafka$utils$NetworkClientBlockingOps$$pollContinuously$extension(NetworkClientBlockingOps.scala:142)
+	at kafka.utils.NetworkClientBlockingOps$.blockingSendAndReceive$extension(NetworkClientBlockingOps.scala:108)
+	at kafka.server.ReplicaFetcherThread.sendRequest(ReplicaFetcherThread.scala:249)
+	at kafka.server.ReplicaFetcherThread.fetch(ReplicaFetcherThread.scala:234)
+	at kafka.server.ReplicaFetcherThread.fetch(ReplicaFetcherThread.scala:42)
+	at kafka.server.AbstractFetcherThread.processFetchRequest(AbstractFetcherThread.scala:118)
+	at kafka.server.AbstractFetcherThread.doWork(AbstractFetcherThread.scala:103)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:63)
+[2021-04-28 16:44:58,635] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = false
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9094
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs-1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-28 16:44:58,663] INFO starting (kafka.server.KafkaServer)
+[2021-04-28 16:44:58,664] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-28 16:44:58,798] FATAL Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+	at kafka.utils.CoreUtils$.urlSafeBase64EncodeNoPadding(CoreUtils.scala:294)
+	at kafka.utils.CoreUtils$.generateUuidAsBase64(CoreUtils.scala:282)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at scala.Option.getOrElse(Option.scala:121)
+	at kafka.server.KafkaServer.getOrGenerateClusterId(KafkaServer.scala:335)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:190)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:39)
+	at kafka.Kafka$.main(Kafka.scala:67)
+	at kafka.Kafka.main(Kafka.scala)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.DatatypeConverter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 10 more
+[2021-04-28 16:44:58,800] INFO shutting down (kafka.server.KafkaServer)
+[2021-04-28 16:44:58,809] INFO shut down completed (kafka.server.KafkaServer)
+[2021-04-28 16:44:58,809] FATAL Fatal error during KafkaServerStartable startup. Prepare to shutdown (kafka.server.KafkaServerStartable)
+java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+	at kafka.utils.CoreUtils$.urlSafeBase64EncodeNoPadding(CoreUtils.scala:294)
+	at kafka.utils.CoreUtils$.generateUuidAsBase64(CoreUtils.scala:282)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at scala.Option.getOrElse(Option.scala:121)
+	at kafka.server.KafkaServer.getOrGenerateClusterId(KafkaServer.scala:335)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:190)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:39)
+	at kafka.Kafka$.main(Kafka.scala:67)
+	at kafka.Kafka.main(Kafka.scala)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.DatatypeConverter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 10 more
+[2021-04-28 16:44:58,811] INFO shutting down (kafka.server.KafkaServer)
+[2021-04-28 16:45:07,199] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 1
+	broker.id.generation.enable = true
+	broker.rack = null
+	compression.type = producer
+	connections.max.idle.ms = 600000
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delete.topic.enable = false
+	fetch.purgatory.purge.interval.requests = 1000
+	group.max.session.timeout.ms = 300000
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 0.10.2-IV0
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,TRACE:TRACE,SASL_SSL:SASL_SSL,PLAINTEXT:PLAINTEXT
+	listeners = PLAINTEXT://:9094
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs-1
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.format.version = 0.10.2-IV0
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 1440
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 3
+	offsets.topic.segment.bytes = 104857600
+	port = 9092
+	principal.builder.class = class org.apache.kafka.common.security.auth.DefaultPrincipalBuilder
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = null
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	unclean.leader.election.enable = true
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2021-04-28 16:45:07,228] INFO starting (kafka.server.KafkaServer)
+[2021-04-28 16:45:07,229] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2021-04-28 16:45:07,292] FATAL Fatal error during KafkaServer startup. Prepare to shutdown (kafka.server.KafkaServer)
+java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+	at kafka.utils.CoreUtils$.urlSafeBase64EncodeNoPadding(CoreUtils.scala:294)
+	at kafka.utils.CoreUtils$.generateUuidAsBase64(CoreUtils.scala:282)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at scala.Option.getOrElse(Option.scala:121)
+	at kafka.server.KafkaServer.getOrGenerateClusterId(KafkaServer.scala:335)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:190)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:39)
+	at kafka.Kafka$.main(Kafka.scala:67)
+	at kafka.Kafka.main(Kafka.scala)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.DatatypeConverter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 10 more
+[2021-04-28 16:45:07,294] INFO shutting down (kafka.server.KafkaServer)
+[2021-04-28 16:45:07,303] INFO shut down completed (kafka.server.KafkaServer)
+[2021-04-28 16:45:07,303] FATAL Fatal error during KafkaServerStartable startup. Prepare to shutdown (kafka.server.KafkaServerStartable)
+java.lang.NoClassDefFoundError: javax/xml/bind/DatatypeConverter
+	at kafka.utils.CoreUtils$.urlSafeBase64EncodeNoPadding(CoreUtils.scala:294)
+	at kafka.utils.CoreUtils$.generateUuidAsBase64(CoreUtils.scala:282)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at kafka.server.KafkaServer$$anonfun$getOrGenerateClusterId$1.apply(KafkaServer.scala:335)
+	at scala.Option.getOrElse(Option.scala:121)
+	at kafka.server.KafkaServer.getOrGenerateClusterId(KafkaServer.scala:335)
+	at kafka.server.KafkaServer.startup(KafkaServer.scala:190)
+	at kafka.server.KafkaServerStartable.startup(KafkaServerStartable.scala:39)
+	at kafka.Kafka$.main(Kafka.scala:67)
+	at kafka.Kafka.main(Kafka.scala)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.DatatypeConverter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 10 more
+[2021-04-28 16:45:07,305] INFO shutting down (kafka.server.KafkaServer)
